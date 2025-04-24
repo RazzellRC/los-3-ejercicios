@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_margin="8dp"
+    android:background="@android:color/white"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/tvTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvMarcaModelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marca - Modelo" />
+
+    <TextView
+        android:id="@+id/tvPrecioKm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio - Kilometraje" />
+
+    <ImageView
+        android:id="@+id/imgVehiculo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="8dp"
+        android:contentDescription="Imagen del vehículo"
+        />
+
+</LinearLayout>
